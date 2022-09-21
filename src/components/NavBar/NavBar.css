@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar {
+    background-image: url(../../assets/logo.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+
+}
+
+.NavBar-h1 {
+    text-decoration: none;
+}
+
+.NavBar-a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.NavBar-ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
+}
+
+.NavBar-li {
+    margin: 0.5em;
+    list-style: none;
+}

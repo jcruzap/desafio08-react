@@ -1,0 +1,41 @@
+.joyas {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    background-image: grey;
+    text-decoration: none;
+}
+
+.joyas h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.joyas h2 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .joyas h1 {
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    .joyas h2 {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
+
+.itemsButton {
+    height: 50px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: pink;
+    text-align: center;
+    padding-top: 20px
+}
